@@ -2,7 +2,7 @@
 
 A battery-optimized native Android application for Tolino eReaders (specifically Vision 2 / Shine 2 HD and similar running Android 4.4 KitKat). 
 
-Unlike the web-based version, this app utilizes **Root Access** to force the device into a deep "Suspend-to-RAM" sleep state between minutes. This significantly reduces power consumption compared to keeping the CPU awake.
+Unlike the web-based version ([simple-tolino-literature-clock](https://github.com/pauldobner/simple-tolino-literature-clock)), this app utilizes **Root Access** to force the device into a deep "Suspend-to-RAM" sleep state between minutes. This significantly reduces power consumption compared to keeping the CPU awake.
 
 ## Features
 - **Deep Sleep (Root Suspend):** Wakes up for ~7 seconds every minute to update the screen, then sleeps for the remainder of the minute.
